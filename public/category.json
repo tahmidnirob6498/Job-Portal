@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Software Development",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "description": "Build websites, mobile apps, and software solutions using modern technologies."
+  },
+  {
+    "id": 2,
+    "name": "Graphic Design",
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "description": "Create visual content, branding, and marketing materials."
+  },
+  {
+    "id": 3,
+    "name": "Digital Marketing",
+    "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312",
+    "description": "Promote brands through social media, SEO, and online advertising."
+  },
+  {
+    "id": 4,
+    "name": "Data Science",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "description": "Analyze data to extract insights and build predictive models."
+  },
+  {
+    "id": 5,
+    "name": "Cyber Security",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    "description": "Protect systems and networks from digital attacks."
+  },
+  {
+    "id": 6,
+    "name": "Content Writing",
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a",
+    "description": "Write blogs, articles, and marketing content."
+  },
+  {
+    "id": 7,
+    "name": "UI/UX Design",
+    "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c",
+    "description": "Design user-friendly and attractive digital interfaces."
+  },
+  {
+    "id": 8,
+    "name": "Accounting & Finance",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    "description": "Manage company finances, budgets, and financial reporting."
+  },
+  {
+    "id": 9,
+    "name": "Human Resources",
+    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+    "description": "Handle recruitment, employee management, and workplace policies."
+  },
+  {
+    "id": 10,
+    "name": "Customer Support",
+    "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    "description": "Assist customers and resolve product or service issues."
+  },
+  {
+    "id": 11,
+    "name": "Video Editing",
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "description": "Edit and produce professional video content."
+  },
+  {
+    "id": 12,
+    "name": "Project Management",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "description": "Plan, organize, and manage project execution."
+  }
+]
