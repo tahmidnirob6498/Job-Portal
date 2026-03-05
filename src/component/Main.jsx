@@ -5,6 +5,7 @@ import { IoMdPersonAdd } from 'react-icons/io';
 import { IoCloudDoneSharp, IoPeople } from 'react-icons/io5';
 import CarousalCatagory from './CarousalCatagory';
 import OurImpact from './OurImpact';
+import { Link } from 'react-router';
 
 const Main = () => {
     return (
@@ -29,11 +30,11 @@ const Main = () => {
          </div>
          
         <div className="card grid gap-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  bg-base-100 card-md shadow-sm">
-  <div className="card-body transition-all hover:bg-amber-400  hover:scale-105  hover:text-white duration-700 shadow-xl rounded-sm text-center">
+  <Link to='/jobs'  className="card-body transition-all hover:bg-amber-400  hover:scale-105  hover:text-white duration-700 shadow-xl rounded-sm text-center">
          <CiSearch size={40} className='mx-auto ' fill='amber'/>
                 <h1 className='text-xl sm:text-2xl font-semibold'>Search Jobs</h1>
                 <p className='md:text-[15px]'>Browse curated job listings and apply with confidence. Your next opportunity is just a search away.</p>
-            </div>
+            </Link>
   <div className="card-body transition-all hover:bg-amber-400  hover:scale-105   hover:text-white duration-700 shadow-xl rounded-sm text-center">
          <IoMdPersonAdd  size={40} className='mx-auto ' fill='amber'/>
                 <h1 className='text-xl sm:text-2xl font-semibold'>Create account</h1>
@@ -44,11 +45,11 @@ const Main = () => {
                 <h1 className='text-xl sm:text-2xl font-semibold'>Blogs</h1>
                 <p className='md:text-[15px]'>Browse curated job listings and apply with confidence. Your next opportunity is just a search away.</p>
             </div>
-  <div className="card-body transition-all hover:bg-amber-400  hover:scale-105   hover:text-white duration-700 shadow-xl rounded-sm text-center">
+  <Link to='/jobs' className="card-body transition-all hover:bg-amber-400  hover:scale-105   hover:text-white duration-700 shadow-xl rounded-sm text-center">
          <IoCloudDoneSharp  size={40} className='mx-auto ' fill='amber'/>
                 <h1 className='text-xl sm:text-2xl font-semibold'>Apply</h1>
                 <p className='md:text-[15px]'>Stay updated with the newest trends in job search, resume building, interview strategies, and career growth. </p>
-            </div>
+            </Link>
     
 
 

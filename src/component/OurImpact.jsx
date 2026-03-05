@@ -1,6 +1,6 @@
 import React, { use } from 'react';
 import Impact from './Impact';
-const impactApi=fetch('impacts.json').then(res=>res.json())
+const impactApi=fetch('/impacts.json').then(res=>res.json())
 const OurImpact = () => {
     const imapacts=use(impactApi)
     return (

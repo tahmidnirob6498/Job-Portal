@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../assets/young-man-in-a-smart-suit-smiles-confidently-with-arms-crossed-against-a-plain-background-free-photo-removebg-preview.png'
+import { Link } from 'react-router';
 
 const Banner = () => {
     return (
@@ -15,7 +16,7 @@ const Banner = () => {
       <p className="py-3 sm:py-4 md:py-6">
        We believe everyone deserves the right opportunity to grow. Our platform brings together ambitious job seekers and forward-thinking companies.
       </p>
-      <button className="btn bg-amber-400">Find your jobs</button>
+      <Link to='/jobs' className="btn bg-amber-400">Find your jobs</Link>
     </div>
   </div>
 </div>

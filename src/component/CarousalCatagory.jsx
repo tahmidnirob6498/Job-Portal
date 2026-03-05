@@ -1,6 +1,6 @@
 import React, { use } from 'react';
 import CatCard from './CatCard';
-const cardsApi=fetch('category.json').then(res=>res.json())
+const cardsApi=fetch('/category.json').then(res=>res.json())
 const CarousalCatagory = () => {
     const cards=use(cardsApi) 
     console.log(cards)

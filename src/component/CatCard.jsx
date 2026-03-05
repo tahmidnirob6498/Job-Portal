@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const CatCard = ({card}) => {
     return (
@@ -14,7 +15,7 @@ const CatCard = ({card}) => {
     <h2 className="card-title">{card.name}</h2>
     <p>{card.description}</p>
     <div className="card-actions justify-end">
-      <button className="btn bg-amber-500 transition-all hover:scale-110 duration-100">Explore</button>
+      <Link to={`/jobs/${card.id}`} className="btn bg-amber-500 transition-all hover:scale-110 duration-100">Explore</Link>
     </div>
   </div>
 </div>
