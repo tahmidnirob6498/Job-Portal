@@ -6,13 +6,13 @@ const RandomJobs = () => {
 
     const randomJobsPackage=use(randomJobsApi)
     // const randomJobs=randomJobsPackage.jobs
-    console.log(randomJobsPackage)
+  
 
     
     return (
         <div>
         {
-            randomJobsPackage.map(jobs=><RandomJob jobs={jobs}></RandomJob>)
+            randomJobsPackage.map(jobs=><RandomJob key={jobs.id} jobs={jobs}></RandomJob>)
         }    
         </div>
     );

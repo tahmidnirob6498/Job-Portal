@@ -12,12 +12,12 @@ const CatJobs = () => {
     .then(res=>res.json())
     .then(data=>setCatJobs(data))
   },[])
-  console.log(catJobs)
+  
     const selectedPath=catJobs?.find(catJob=>String(catJob.id) === id)
     
   
 //    const jobs=selectedPath?.jobs;
-   console.log(selectedPath)
+   
   
  
    
@@ -25,7 +25,7 @@ const CatJobs = () => {
     return (
         <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-10'>
         {
-         selectedPath?.jobs?.map(job=><CatJob job={job}></CatJob>)  
+         selectedPath?.jobs?.map(job=><CatJob key={job.job_id} job={job}></CatJob>)  
         }    
         </div>
     )

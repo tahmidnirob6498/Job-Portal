@@ -4,8 +4,9 @@ import { Link, Navigate, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from './CreateContext';
 
 const Login = () => {
-  const location=useLocation()
-  console.log(location)
+  const routelocation=useLocation()
+ const location=routelocation.state
+ console.log(location)
   const [err,setErr]=useState('')
   const navigate=useNavigate()
   const {login,signWithGoogle,handlePass}=use(AuthContext)
@@ -15,7 +16,7 @@ const Login = () => {
  setErr('')
  const email=e.target.email.value
  const password=e.target.password.value
- console.log(email,password)
+
 
 
 
@@ -24,7 +25,7 @@ const Login = () => {
   //  if(user.emailVerified){
   //   navigate('/')
   //  }
-  navigate(location.state ? location.state : '/')
+ navigate(location.pathname ? location.pathname : '/')
 // else{
 //   setErr("Your Email is not Verified")
 //   return
@@ -34,9 +35,11 @@ const Login = () => {
 
   }
     const handleGoogle=()=>{
-      setErr('/')
+      setErr('')
       signWithGoogle()
-      .then(res=>console.log(res))
+      .then(()=>{
+      navigate(location.pathname ? location.pathname : '/')
+      })
       .catch(err=>setErr(err.code))
     }
     const handlePassword=()=>{
@@ -59,7 +62,7 @@ const Login = () => {
           <input type="password" name='password' className="input" placeholder="Password" />
           <a onClick={handlePassword} className="link link-hover">Forgot password?</a>
           <button className="btn bg-amber-400 mt-4">Login</button>
-          <p className='text-center'>Don't have an account?<Link className='text-amber-500' to='/signup'>Create account</Link></p>
+          <p className='text-center'>Don't have an account?<Link state={location.state} className='text-amber-500' to='/signup'>Create account</Link></p>
         </form>
       </div>
     </div>

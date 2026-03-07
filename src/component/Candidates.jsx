@@ -3,7 +3,6 @@ import Candidate from './Candidate';
 const candidatesApi=fetch('/candidates.json').then(res=>res.json())
 const Candidates = () => {
     const candidates=use(candidatesApi)
-    console.log(candidates)
     return (
         <div className='mt-10'>
          <div className=' max-w-10/11 md:max-w-4/7 mx-auto text-center'>
@@ -12,7 +11,7 @@ const Candidates = () => {
          </div>
          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 py-5 px-2'>
           {
-            candidates.map(candidate=><Candidate candidate={candidate}></Candidate>)
+            candidates.map(candidate=><Candidate key={candidate.id} candidate={candidate}></Candidate>)
           }  
             
          </div>   

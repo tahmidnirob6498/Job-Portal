@@ -16,7 +16,7 @@ const inputRef=useRef()
 
       const search=inputRef.current.value;
      const data= categories.find(category=>category.name===search)
-     console.log(data)
+     
     
      if(data){
       
@@ -60,7 +60,7 @@ your next big opportunity starts here.
 
     <div className='flex gap-4 flex-wrap mt-10  max-w-10/12 mx-auto'><span className='text-green-600 font-bold'>Popular search:</span>
     {
-        categories.slice(0,6).map(category=><Link  to={`/jobs/${category.id}`}  className=' underline  rounded-xl'>{category.name}</Link>)
+        categories.slice(0,6).map((category,index)=><Link key={index}  to={`/jobs/${category.id}`}  className=' underline  rounded-xl'>{category.name}</Link>)
     }
 </div>
   </div>
@@ -71,7 +71,7 @@ your next big opportunity starts here.
          <div className='md:pl-10 flex gap-4 flex-wrap mt-10 max-w-10/12 mx-auto'>
          <NavLink to='/jobs' end  className={ ` text-sm md:text-[17px] p-1 px-2 shadow-xl rounded-xl`}>All</NavLink>
     {
-        categories.map(category=><NavLink to={`/jobs/${category.id}`} className=' bg-base-200 text-sm md:text-[17px] p-1 px-2 shadow-xl rounded-xl'>{category.name}</NavLink>)
+        categories.map(category=><NavLink key={category.id} to={`/jobs/${category.id}`} className=' bg-base-200 text-sm md:text-[17px] p-1 px-2 shadow-xl rounded-xl'>{category.name}</NavLink>)
     }
 </div>
 

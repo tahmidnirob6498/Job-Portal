@@ -2,9 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const AllJob = ({RandomJob}) => {
-    
-    
-               console.log(RandomJob)
+  
         return(
      <div className="card hover:scale-101  shadow-xl border border-amber-300 text-start p-4">
  

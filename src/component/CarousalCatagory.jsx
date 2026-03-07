@@ -3,7 +3,7 @@ import CatCard from './CatCard';
 const cardsApi=fetch('/category.json').then(res=>res.json())
 const CarousalCatagory = () => {
     const cards=use(cardsApi) 
-    console.log(cards)
+   
     return (
         <div className='my-15'>
       <div className='max-w-11/12 mx-auto text-center'>

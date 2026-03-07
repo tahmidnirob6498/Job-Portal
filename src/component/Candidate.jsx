@@ -15,7 +15,7 @@ const Candidate = ({candidate}) => {
             </div>
             <div className='flex  gap-3 mt-5 pt-3 justify-center items-center'>
                 {
-                    skills.map(skill=><p className='bg-blue-50 text-center shadow-xl rounded-2xl text-xs p-1 px-2'>{skill}</p>)
+                    skills.map((skill,index)=><p key={index} className='bg-blue-50 text-center shadow-xl rounded-2xl text-xs p-1 px-2'>{skill}</p>)
                 }
             </div>
             <div className='flex justify-between items-center mt-8 text-xs text-gray-600 '>

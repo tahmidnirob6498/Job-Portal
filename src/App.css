@@ -7,3 +7,6 @@
 ul li{
   @apply hover:bg-amber-400 hover:rounded-sm
 }
+ @plugin "daisyui" {
+  themes: light --default;
+ }

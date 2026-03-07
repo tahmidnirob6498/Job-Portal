@@ -1,9 +1,12 @@
 import React, { use, useState } from 'react';
 import { FcGoogle } from 'react-icons/fc';
-import { Link, Navigate, useNavigate } from 'react-router';
+import { Link, Navigate, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from './CreateContext';
 
 const Signup = () => {
+  const routelocation=useLocation()
+  const location=routelocation.state
+  // console.log(location)
   // const {signUp,signWithGoogle,updateUserProfile,handleEmailVerification,user,setUser}=use(AuthContext)
   const {signUp,signWithGoogle,updateUserProfile,setUser}=use(AuthContext)
   const navigate=useNavigate()
@@ -16,7 +19,7 @@ const Signup = () => {
   const email=e.target.email.value
   const photo=e.target.photo.value
   const password=e.target.password.value
-  console.log(name,password,email,photo)
+  
   const obj={
     displayName:name,
     photoURL:photo
@@ -27,11 +30,11 @@ const Signup = () => {
   return
  }
  signUp(email,password)
- .then((res)=>{
+ .then(()=>{
   // handleEmailVerification().then(()=>alert('Email sent on your account for veification.Please verified your account')).catch(err=>setErr(err.code))
    updateUserProfile(obj)
-   console.log(res)
-   navigate('/')
+   
+  navigate(location.pathname ? location.pathname : '/')
   
   
  })
@@ -40,9 +43,11 @@ const Signup = () => {
     }
 
     const handleGoogle=()=>{
-      setErr('/')
+      setErr('')
       signWithGoogle()
-      .then(res=>console.log(res))
+      .then(()=>{
+      navigate(location.pathname ? location.pathname : '/')
+      })
       .catch(err=>setErr(err.code))
     }
     return (

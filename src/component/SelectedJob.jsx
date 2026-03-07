@@ -5,9 +5,9 @@ const SelectedJob = () => {
 
     const {id}=useParams()
     const AllJobs=useLoaderData()
-    console.log(AllJobs,id)
+   
   const selectedJob=AllJobs.flatMap(category=>category.jobs).find(job=>job.job_id==id)
-  console.log(selectedJob)
+  
   const {job_description,salary,company,title,type}=selectedJob
   
  const handleApply=()=>{
