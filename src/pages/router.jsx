@@ -7,6 +7,9 @@ import RandomJobs from "../component/RandomJobs";
 import CatJobs from "../component/CatJobs";
 import Login from "./Login";
 import Signup from "./Signup";
+import SelectedJob from "../component/SelectedJob";
+import PrivateRoute from "./PrivateRoute";
+import Candidates from "../component/Candidates";
 
 export const router=createBrowserRouter([
     {
@@ -29,6 +32,17 @@ export const router=createBrowserRouter([
                     Component:CatJobs,
                 }
             ]
+            },
+            {
+                path:'selectedJob/:id',
+                element:<PrivateRoute>
+                    <SelectedJob></SelectedJob>
+                </PrivateRoute>,
+                loader:()=>fetch('/category.json')
+            },
+            {
+                path:'/candidate',
+                Component:Candidates
             }
             
         ]

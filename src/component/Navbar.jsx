@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router';
+import { AuthContext } from '../pages/CreateContext';
+import image from '../assets/836b95d0af5de480b75f294fe00e3c8f.jpg'
 
 const Navbar = () => {
+  const {user,logOut}=useContext(AuthContext)
     const link=
     <>
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/jobs">Find Jobs</NavLink></li>
-    <li><NavLink to="/blogs">Blogs</NavLink></li>
+    <li><NavLink to="/candidate">Candidate</NavLink></li>
     </>
+    const handleLogout=()=>{
+      logOut()
+    }
     return (
        <div className="navbar bg-base-100 shadow-sm max-w-11/12 mx-auto">
   <div className="navbar-start">
@@ -29,8 +35,42 @@ const Navbar = () => {
       {link}
     </ul>
   </div>
+  {/* Modal */}
+
+<dialog id="my_modal_5" className="modal  modal-middle">
+  <div className="modal-box max-w-2/3">
+<div className='max-w-1/7 mx-auto'>
+     {user?.photoURL ? <img className='w-10 rounded-full' src={user.photoURL} alt="" /> : <img className='w-15 rounded-full text-amber-600' src={image} alt="" /> }
+  
+  </div> 
+    <h3 className="font-bold text-2xl max-w-1/7 mx-auto">{user?.displayName}</h3>
+    <p className="py-4 flex items-center gap-1 text-center"><span className='text-xl font-semibold'>Email:</span> {user?.email}</p>
+   <div className='flex justify-between items-center'>
+    <div>
+      <form method="dialog">
+        <button onClick={handleLogout} className=' modal-action btn bg-amber-300 mt-6'>Logout</button>
+      </form>
+    </div>
+     <div className="modal-action">
+      <form method="dialog">
+        {/* if there is a button in form, it will close the modal */}
+        <button className="btn">Close</button>
+      </form>
+    </div>
+   </div>
+  </div>
+</dialog>
+
+
+
+
+
+
   <div className="navbar-end">
-    <Link to='/login' className="btn bg-amber-400 ">Login</Link>
+    
+    {
+      user ? <div className='flex items-center gap-3'> {user.photoURL ? <img className='w-9 rounded-full' onClick={()=>document.getElementById('my_modal_5').showModal()} src={user.photoURL} alt="" /> : <img className='w-10 rounded-full text-amber-600' onClick={()=>document.getElementById('my_modal_5').showModal()} src={image} alt="" /> }   <p className='text-xl font-semibold'>{user.displayName}</p> </div>: <Link to='/login' className="btn bg-amber-400 ">Login</Link>
+    }
   </div>
 </div>
     );

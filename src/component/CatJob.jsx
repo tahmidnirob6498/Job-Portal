@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const CatJob = ({job}) => {
     return (
@@ -15,7 +16,7 @@ const CatJob = ({job}) => {
         <h1 className='text-xl font-semibold'>{job.company}</h1>
         <p>{job.salary}</p>
        </div>
-       <button className=' rounded-xl my-2 mt-6 mx-1 py-1 hover:scale-105 bg-amber-300 max-w-1/3 '>Apply</button>
+         <Link to={`/selectedJob/${job.job_id}`} className=' text-center rounded-xl my-2 mt-6 mx-1 py-1 hover:scale-105 bg-amber-300 max-w-1/3 '>Apply</Link>
   </div>
     );
 };

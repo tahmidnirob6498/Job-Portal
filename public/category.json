@@ -5,12 +5,12 @@
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
     "description": "Build websites, mobile apps, and software solutions using modern technologies.",
     "jobs": [
-      { "title": "Frontend Developer (React)", "company": "TechNova Ltd.", "location": "Dhaka", "salary": "40k-60k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "Backend Developer (Node.js)", "company": "Softify Solutions", "location": "Remote", "salary": "60k-90k BDT", "type": "Full-time", "posted": "1 day ago" },
-      { "title": "Full Stack Developer", "company": "CodeCrafters", "location": "Dhaka", "salary": "70k-100k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "Junior Software Engineer", "company": "NextGen IT", "location": "Chattogram", "salary": "30k-45k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Mobile App Developer (Flutter)", "company": "Appify", "location": "Remote", "salary": "50k-80k BDT", "type": "Contract", "posted": "5 days ago" },
-      { "title": "DevOps Engineer", "company": "CloudNet", "location": "Dhaka", "salary": "80k-120k BDT", "type": "Full-time", "posted": "1 week ago" }
+      { "job_id": "1-101", "title": "Frontend Developer (React)", "company": "TechNova Ltd.", "location": "Dhaka", "salary": "40k-60k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Develop interactive user interfaces and integrate APIs using React.js." },
+      { "job_id": "1-102", "title": "Backend Developer (Node.js)", "company": "Softify Solutions", "location": "Remote", "salary": "60k-90k BDT", "type": "Full-time", "posted": "1 day ago", "job_description": "Build scalable server-side logic and maintain robust databases using Node.js." },
+      { "job_id": "1-103", "title": "Full Stack Developer", "company": "CodeCrafters", "location": "Dhaka", "salary": "70k-100k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Manage end-to-end development from database architecture to frontend styling." },
+      { "job_id": "1-104", "title": "Junior Software Engineer", "company": "NextGen IT", "location": "Chattogram", "salary": "30k-45k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Assist in coding, debugging, and testing software modules under senior supervision." },
+      { "job_id": "1-105", "title": "Mobile App Developer (Flutter)", "company": "Appify", "location": "Remote", "salary": "50k-80k BDT", "type": "Contract", "posted": "5 days ago", "job_description": "Create cross-platform mobile applications for iOS and Android using Flutter." },
+      { "job_id": "1-106", "title": "DevOps Engineer", "company": "CloudNet", "location": "Dhaka", "salary": "80k-120k BDT", "type": "Full-time", "posted": "1 week ago", "job_description": "Automate deployment pipelines and manage cloud infrastructure for high availability." }
     ]
   },
   {
@@ -19,12 +19,12 @@
     "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
     "description": "Create visual content, branding, and marketing materials.",
     "jobs": [
-      { "title": "Graphic Designer", "company": "Creative Studio", "location": "Dhaka", "salary": "25k-40k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "Brand Designer", "company": "DesignPro", "location": "Remote", "salary": "35k-50k BDT", "type": "Contract", "posted": "1 day ago" },
-      { "title": "UI Designer", "company": "PixelLab", "location": "Dhaka", "salary": "30k-45k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "Motion Graphics Designer", "company": "VisionX", "location": "Remote", "salary": "40k-60k BDT", "type": "Part-time", "posted": "5 days ago" },
-      { "title": "Packaging Designer", "company": "BrandWave", "location": "Khulna", "salary": "25k-35k BDT", "type": "Full-time", "posted": "6 days ago" },
-      { "title": "Social Media Designer", "company": "Marketing Hub", "location": "Sylhet", "salary": "20k-30k BDT", "type": "Part-time", "posted": "4 days ago" }
+      { "job_id": "2-201", "title": "Graphic Designer", "company": "Creative Studio", "location": "Dhaka", "salary": "25k-40k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Design creative layouts for print and digital media using Adobe Creative Suite." },
+      { "job_id": "2-202", "title": "Brand Designer", "company": "DesignPro", "location": "Remote", "salary": "35k-50k BDT", "type": "Contract", "posted": "1 day ago", "job_description": "Develop visual identities, including logos, typography, and brand guidelines." },
+      { "job_id": "2-203", "title": "UI Designer", "company": "PixelLab", "location": "Dhaka", "salary": "30k-45k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Craft high-fidelity visual interfaces and assets for web and mobile platforms." },
+      { "job_id": "2-204", "title": "Motion Graphics Designer", "company": "VisionX", "location": "Remote", "salary": "40k-60k BDT", "type": "Part-time", "posted": "5 days ago", "job_description": "Create engaging 2D/3D animations and visual effects for marketing videos." },
+      { "job_id": "2-205", "title": "Packaging Designer", "company": "BrandWave", "location": "Khulna", "salary": "25k-35k BDT", "type": "Full-time", "posted": "6 days ago", "job_description": "Design structural and visual concepts for product packaging and labels." },
+      { "job_id": "2-206", "title": "Social Media Designer", "company": "Marketing Hub", "location": "Sylhet", "salary": "20k-30k BDT", "type": "Part-time", "posted": "4 days ago", "job_description": "Create eye-catching posts, stories, and banners for various social platforms." }
     ]
   },
   {
@@ -33,26 +33,26 @@
     "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312",
     "description": "Promote brands through social media, SEO, and online advertising.",
     "jobs": [
-      { "title": "Digital Marketing Executive", "company": "AdBoost Agency", "location": "Dhaka", "salary": "30k-45k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "SEO Specialist", "company": "RankUp Ltd.", "location": "Remote", "salary": "35k-55k BDT", "type": "Full-time", "posted": "1 day ago" },
-      { "title": "Social Media Manager", "company": "Digital Wave", "location": "Khulna", "salary": "25k-40k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "Content Marketing Manager", "company": "GrowthHub", "location": "Dhaka", "salary": "45k-70k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "PPC Specialist", "company": "ClickBoost", "location": "Remote", "salary": "50k-75k BDT", "type": "Contract", "posted": "6 days ago" },
-      { "title": "Email Marketing Executive", "company": "MailPro", "location": "Chattogram", "salary": "30k-45k BDT", "type": "Full-time", "posted": "1 week ago" }
+      { "job_id": "3-301", "title": "Digital Marketing Executive", "company": "AdBoost Agency", "location": "Dhaka", "salary": "30k-45k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Execute digital campaigns across search engines and social media to drive leads." },
+      { "job_id": "3-302", "title": "SEO Specialist", "company": "RankUp Ltd.", "location": "Remote", "salary": "35k-55k BDT", "type": "Full-time", "posted": "1 day ago", "job_description": "Perform keyword research and on-page/off-page optimization to improve rankings." },
+      { "job_id": "3-303", "title": "Social Media Manager", "company": "Digital Wave", "location": "Khulna", "salary": "25k-40k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Manage community engagement and content calendars for client social channels." },
+      { "job_id": "3-304", "title": "Content Marketing Manager", "company": "GrowthHub", "location": "Dhaka", "salary": "45k-70k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Oversee the creation and distribution of high-value blogs, whitepapers, and videos." },
+      { "job_id": "3-305", "title": "PPC Specialist", "company": "ClickBoost", "location": "Remote", "salary": "50k-75k BDT", "type": "Contract", "posted": "6 days ago", "job_description": "Manage paid search and display campaigns with a focus on maximizing ROI." },
+      { "job_id": "3-306", "title": "Email Marketing Executive", "company": "MailPro", "location": "Chattogram", "salary": "30k-45k BDT", "type": "Full-time", "posted": "1 week ago", "job_description": "Design and automate email newsletters to nurture leads and retain customers." }
     ]
-  }  ,
-   {
+  },
+  {
     "id": 4,
     "name": "Data Science",
     "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
     "description": "Analyze data to extract insights and build predictive models.",
     "jobs": [
-      { "title": "Data Analyst", "company": "Insight Analytics", "location": "Dhaka", "salary": "50k-80k BDT", "type": "Full-time", "posted": "1 day ago" },
-      { "title": "Machine Learning Engineer", "company": "AI Labs", "location": "Remote", "salary": "80k-120k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "Business Intelligence Analyst", "company": "DataCorp", "location": "Chattogram", "salary": "45k-70k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "AI Research Assistant", "company": "DeepMind BD", "location": "Dhaka", "salary": "60k-90k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Data Engineer", "company": "CloudData", "location": "Remote", "salary": "70k-110k BDT", "type": "Full-time", "posted": "5 days ago" },
-      { "title": "Statistician", "company": "StatPro", "location": "Rajshahi", "salary": "40k-60k BDT", "type": "Full-time", "posted": "1 week ago" }
+      { "job_id": "4-401", "title": "Data Analyst", "company": "Insight Analytics", "location": "Dhaka", "salary": "50k-80k BDT", "type": "Full-time", "posted": "1 day ago", "job_description": "Clean, process, and visualize data to help stakeholders make informed decisions." },
+      { "job_id": "4-402", "title": "Machine Learning Engineer", "company": "AI Labs", "location": "Remote", "salary": "80k-120k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Design and implement ML algorithms and predictive models for real-world apps." },
+      { "job_id": "4-403", "title": "Business Intelligence Analyst", "company": "DataCorp", "location": "Chattogram", "salary": "45k-70k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Build interactive dashboards and reports to track key business performance metrics." },
+      { "job_id": "4-404", "title": "AI Research Assistant", "company": "DeepMind BD", "location": "Dhaka", "salary": "60k-90k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Support the development of cutting-edge AI technologies through rigorous research." },
+      { "job_id": "4-405", "title": "Data Engineer", "company": "CloudData", "location": "Remote", "salary": "70k-110k BDT", "type": "Full-time", "posted": "5 days ago", "job_description": "Build and maintain data pipelines and architectures for large-scale data storage." },
+      { "job_id": "4-406", "title": "Statistician", "company": "StatPro", "location": "Rajshahi", "salary": "40k-60k BDT", "type": "Full-time", "posted": "1 week ago", "job_description": "Apply statistical methods to analyze surveys and experiments for scientific accuracy." }
     ]
   },
   {
@@ -61,12 +61,12 @@
     "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
     "description": "Protect systems and networks from digital attacks.",
     "jobs": [
-      { "title": "Cyber Security Analyst", "company": "SecureNet", "location": "Dhaka", "salary": "60k-90k BDT", "type": "Full-time", "posted": "1 day ago" },
-      { "title": "Ethical Hacker", "company": "CyberSafe Ltd.", "location": "Remote", "salary": "70k-110k BDT", "type": "Contract", "posted": "2 days ago" },
-      { "title": "Network Security Engineer", "company": "IT Shield", "location": "Rajshahi", "salary": "50k-80k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Security Consultant", "company": "CyberPro", "location": "Dhaka", "salary": "80k-130k BDT", "type": "Full-time", "posted": "5 days ago" },
-      { "title": "SOC Analyst", "company": "ShieldOps", "location": "Remote", "salary": "55k-85k BDT", "type": "Full-time", "posted": "6 days ago" },
-      { "title": "Information Security Officer", "company": "SecureTech", "location": "Chattogram", "salary": "90k-140k BDT", "type": "Full-time", "posted": "1 week ago" }
+      { "job_id": "5-501", "title": "Cyber Security Analyst", "company": "SecureNet", "location": "Dhaka", "salary": "60k-90k BDT", "type": "Full-time", "posted": "1 day ago", "job_description": "Monitor networks for security breaches and investigate any unauthorized access." },
+      { "job_id": "5-502", "title": "Ethical Hacker", "company": "CyberSafe Ltd.", "location": "Remote", "salary": "70k-110k BDT", "type": "Contract", "posted": "2 days ago", "job_description": "Perform penetration tests to identify and fix security vulnerabilities in systems." },
+      { "job_id": "5-503", "title": "Network Security Engineer", "company": "IT Shield", "location": "Rajshahi", "salary": "50k-80k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Design and maintain secure network configurations, firewalls, and VPNs." },
+      { "job_id": "5-504", "title": "Security Consultant", "company": "CyberPro", "location": "Dhaka", "salary": "80k-130k BDT", "type": "Full-time", "posted": "5 days ago", "job_description": "Advise organizations on security policies and risk management strategies." },
+      { "job_id": "5-505", "title": "SOC Analyst", "company": "ShieldOps", "location": "Remote", "salary": "55k-85k BDT", "type": "Full-time", "posted": "6 days ago", "job_description": "Provide real-time security monitoring and threat response in a 24/7 environment." },
+      { "job_id": "5-506", "title": "Information Security Officer", "company": "SecureTech", "location": "Chattogram", "salary": "90k-140k BDT", "type": "Full-time", "posted": "1 week ago", "job_description": "Oversee the overall security posture and compliance of the organization." }
     ]
   },
   {
@@ -75,12 +75,12 @@
     "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c",
     "description": "Design user-friendly and attractive digital interfaces.",
     "jobs": [
-      { "title": "UI Designer", "company": "PixelCraft", "location": "Dhaka", "salary": "35k-55k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "UX Researcher", "company": "UserFirst", "location": "Remote", "salary": "50k-80k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "Product Designer", "company": "Designify", "location": "Dhaka", "salary": "60k-90k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Interaction Designer", "company": "FlowStudio", "location": "Chattogram", "salary": "40k-65k BDT", "type": "Full-time", "posted": "5 days ago" },
-      { "title": "UX Writer", "company": "WriteUX", "location": "Remote", "salary": "30k-50k BDT", "type": "Contract", "posted": "6 days ago" },
-      { "title": "Mobile UI Designer", "company": "AppDesign Hub", "location": "Sylhet", "salary": "35k-60k BDT", "type": "Full-time", "posted": "1 week ago" }
+      { "job_id": "6-601", "title": "UI Designer", "company": "PixelCraft", "location": "Dhaka", "salary": "35k-55k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Focus on the visual aesthetics and responsiveness of digital product interfaces." },
+      { "job_id": "6-602", "title": "UX Researcher", "company": "UserFirst", "location": "Remote", "salary": "50k-80k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Conduct user interviews and usability tests to gather insights for design improvements." },
+      { "job_id": "6-603", "title": "Product Designer", "company": "Designify", "location": "Dhaka", "salary": "60k-90k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Balance business goals and user needs to design comprehensive product solutions." },
+      { "job_id": "6-604", "title": "Interaction Designer", "company": "FlowStudio", "location": "Chattogram", "salary": "40k-65k BDT", "type": "Full-time", "posted": "5 days ago", "job_description": "Design user flows and interactive prototypes to ensure intuitive navigation." },
+      { "job_id": "6-605", "title": "UX Writer", "company": "WriteUX", "location": "Remote", "salary": "30k-50k BDT", "type": "Contract", "posted": "6 days ago", "job_description": "Create clear and helpful copy within apps to guide users through their journey." },
+      { "job_id": "6-606", "title": "Mobile UI Designer", "company": "AppDesign Hub", "location": "Sylhet", "salary": "35k-60k BDT", "type": "Full-time", "posted": "1 week ago", "job_description": "Specialized in designing touch-friendly interfaces specifically for mobile devices." }
     ]
   },
   {
@@ -89,12 +89,12 @@
     "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
     "description": "Manage company finances, budgets, and financial reporting.",
     "jobs": [
-      { "title": "Accountant", "company": "FinancePro Ltd.", "location": "Dhaka", "salary": "30k-50k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "Financial Analyst", "company": "InvestCorp", "location": "Remote", "salary": "50k-85k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "Audit Officer", "company": "AuditPlus", "location": "Dhaka", "salary": "40k-60k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Tax Consultant", "company": "TaxWise", "location": "Chattogram", "salary": "45k-70k BDT", "type": "Full-time", "posted": "5 days ago" },
-      { "title": "Finance Executive", "company": "MoneyMatters", "location": "Khulna", "salary": "35k-55k BDT", "type": "Full-time", "posted": "6 days ago" },
-      { "title": "Budget Analyst", "company": "BudgetCare", "location": "Remote", "salary": "50k-75k BDT", "type": "Contract", "posted": "1 week ago" }
+      { "job_id": "7-701", "title": "Accountant", "company": "FinancePro Ltd.", "location": "Dhaka", "salary": "30k-50k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Maintain general ledgers and prepare accurate monthly financial statements." },
+      { "job_id": "7-702", "title": "Financial Analyst", "company": "InvestCorp", "location": "Remote", "salary": "50k-85k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Analyze market trends and financial data to support investment decisions." },
+      { "job_id": "7-703", "title": "Audit Officer", "company": "AuditPlus", "location": "Dhaka", "salary": "40k-60k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Conduct internal audits to ensure compliance with financial laws and standards." },
+      { "job_id": "7-704", "title": "Tax Consultant", "company": "TaxWise", "location": "Chattogram", "salary": "45k-70k BDT", "type": "Full-time", "posted": "5 days ago", "job_description": "Provide tax planning and compliance services for individuals and corporations." },
+      { "job_id": "7-705", "title": "Finance Executive", "company": "MoneyMatters", "location": "Khulna", "salary": "35k-55k BDT", "type": "Full-time", "posted": "6 days ago", "job_description": "Handle daily financial operations including invoicing and payroll processing." },
+      { "job_id": "7-706", "title": "Budget Analyst", "company": "BudgetCare", "location": "Remote", "salary": "50k-75k BDT", "type": "Contract", "posted": "1 week ago", "job_description": "Monitor spending and assist departments in developing annual budgets." }
     ]
   },
   {
@@ -103,12 +103,12 @@
     "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
     "description": "Handle recruitment, employee management, and workplace policies.",
     "jobs": [
-      { "title": "HR Executive", "company": "PeopleFirst", "location": "Dhaka", "salary": "30k-45k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "Recruitment Officer", "company": "HirePro", "location": "Chattogram", "salary": "35k-50k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "HR Manager", "company": "TalentHub", "location": "Dhaka", "salary": "60k-100k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Training Coordinator", "company": "SkillUp Ltd.", "location": "Remote", "salary": "40k-65k BDT", "type": "Full-time", "posted": "5 days ago" },
-      { "title": "Payroll Officer", "company": "PayTrack", "location": "Sylhet", "salary": "30k-45k BDT", "type": "Full-time", "posted": "6 days ago" },
-      { "title": "HR Assistant", "company": "WorkCare", "location": "Rajshahi", "salary": "25k-40k BDT", "type": "Full-time", "posted": "1 week ago" }
+      { "job_id": "8-801", "title": "HR Executive", "company": "PeopleFirst", "location": "Dhaka", "salary": "30k-45k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Manage day-to-day HR operations and support employee relations initiatives." },
+      { "job_id": "8-802", "title": "Recruitment Officer", "company": "HirePro", "location": "Chattogram", "salary": "35k-50k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Source, interview, and onboard qualified candidates for various departments." },
+      { "job_id": "8-803", "title": "HR Manager", "company": "TalentHub", "location": "Dhaka", "salary": "60k-100k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Lead the HR department and develop strategic people-management policies." },
+      { "job_id": "8-804", "title": "Training Coordinator", "company": "SkillUp Ltd.", "location": "Remote", "salary": "40k-65k BDT", "type": "Full-time", "posted": "5 days ago", "job_description": "Organize and facilitate professional development workshops for employees." },
+      { "job_id": "8-805", "title": "Payroll Officer", "company": "PayTrack", "location": "Sylhet", "salary": "30k-45k BDT", "type": "Full-time", "posted": "6 days ago", "job_description": "Ensure accurate and timely payment of salaries and benefits to staff." },
+      { "job_id": "8-806", "title": "HR Assistant", "company": "WorkCare", "location": "Rajshahi", "salary": "25k-40k BDT", "type": "Full-time", "posted": "1 week ago", "job_description": "Provide administrative support to the HR team and maintain employee records." }
     ]
   },
   {
@@ -117,12 +117,12 @@
     "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216",
     "description": "Assist customers and resolve product or service issues.",
     "jobs": [
-      { "title": "Customer Support Executive", "company": "HelpDesk BD", "location": "Dhaka", "salary": "20k-35k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "Call Center Agent", "company": "CallPro", "location": "Chattogram", "salary": "18k-30k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "Client Success Manager", "company": "ClientFirst", "location": "Remote", "salary": "40k-65k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Technical Support Engineer", "company": "TechHelp", "location": "Dhaka", "salary": "35k-55k BDT", "type": "Full-time", "posted": "5 days ago" },
-      { "title": "Support Specialist", "company": "ServicePro", "location": "Khulna", "salary": "25k-40k BDT", "type": "Full-time", "posted": "6 days ago" },
-      { "title": "Live Chat Support", "company": "ChatAssist", "location": "Remote", "salary": "22k-38k BDT", "type": "Part-time", "posted": "1 week ago" }
+      { "job_id": "9-901", "title": "Customer Support Executive", "company": "HelpDesk BD", "location": "Dhaka", "salary": "20k-35k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Respond to customer inquiries and resolve issues via phone and email." },
+      { "job_id": "9-902", "title": "Call Center Agent", "company": "CallPro", "location": "Chattogram", "salary": "18k-30k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Handle high volumes of incoming calls while maintaining a professional tone." },
+      { "job_id": "9-903", "title": "Client Success Manager", "company": "ClientFirst", "location": "Remote", "salary": "40k-65k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Build long-term relationships with key clients to ensure product satisfaction." },
+      { "job_id": "9-904", "title": "Technical Support Engineer", "company": "TechHelp", "location": "Dhaka", "salary": "35k-55k BDT", "type": "Full-time", "posted": "5 days ago", "job_description": "Provide technical troubleshooting for software or hardware-related problems." },
+      { "job_id": "9-905", "title": "Support Specialist", "company": "ServicePro", "location": "Khulna", "salary": "25k-40k BDT", "type": "Full-time", "posted": "6 days ago", "job_description": "Act as an expert resource for complex customer queries and product training." },
+      { "job_id": "9-906", "title": "Live Chat Support", "company": "ChatAssist", "location": "Remote", "salary": "22k-38k BDT", "type": "Part-time", "posted": "1 week ago", "job_description": "Provide real-time assistance to website visitors through live chat windows." }
     ]
   },
   {
@@ -131,12 +131,12 @@
     "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
     "description": "Edit and produce professional video content.",
     "jobs": [
-      { "title": "Video Editor", "company": "MediaWorks", "location": "Dhaka", "salary": "30k-50k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "YouTube Video Editor", "company": "Creator Studio", "location": "Remote", "salary": "35k-60k BDT", "type": "Contract", "posted": "3 days ago" },
-      { "title": "Motion Video Editor", "company": "Vision Media", "location": "Chattogram", "salary": "40k-65k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Film Editor", "company": "CinemaPro", "location": "Dhaka", "salary": "50k-80k BDT", "type": "Full-time", "posted": "5 days ago" },
-      { "title": "Short-form Content Editor", "company": "ReelBoost", "location": "Remote", "salary": "30k-55k BDT", "type": "Part-time", "posted": "6 days ago" },
-      { "title": "Post Production Assistant", "company": "StudioMax", "location": "Sylhet", "salary": "25k-40k BDT", "type": "Full-time", "posted": "1 week ago" }
+      { "job_id": "10-1001", "title": "Video Editor", "company": "MediaWorks", "location": "Dhaka", "salary": "30k-50k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Edit raw footage into high-quality videos for corporate or creative use." },
+      { "job_id": "10-1002", "title": "YouTube Video Editor", "company": "Creator Studio", "location": "Remote", "salary": "35k-60k BDT", "type": "Contract", "posted": "3 days ago", "job_description": "Specialized in fast-paced editing, thumbnails, and SEO for YouTube channels." },
+      { "job_id": "10-1003", "title": "Motion Video Editor", "company": "Vision Media", "location": "Chattogram", "salary": "40k-65k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Combine traditional editing with motion graphics to create dynamic content." },
+      { "job_id": "10-1004", "title": "Film Editor", "company": "CinemaPro", "location": "Dhaka", "salary": "50k-80k BDT", "type": "Full-time", "posted": "5 days ago", "job_description": "Craft long-form narratives and documentaries through cinematic storytelling." },
+      { "job_id": "10-1005", "title": "Short-form Content Editor", "company": "ReelBoost", "location": "Remote", "salary": "30k-55k BDT", "type": "Part-time", "posted": "6 days ago", "job_description": "Optimize video content for Reels, TikTok, and other short-form social platforms." },
+      { "job_id": "10-1006", "title": "Post Production Assistant", "company": "StudioMax", "location": "Sylhet", "salary": "25k-40k BDT", "type": "Full-time", "posted": "1 week ago", "job_description": "Assist with file management, color grading, and basic assembly of sequences." }
     ]
   },
   {
@@ -145,12 +145,12 @@
     "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
     "description": "Plan, organize, and manage project execution.",
     "jobs": [
-      { "title": "Project Manager", "company": "BuildRight Ltd.", "location": "Dhaka", "salary": "70k-120k BDT", "type": "Full-time", "posted": "2 days ago" },
-      { "title": "Assistant Project Manager", "company": "ManagePro", "location": "Chattogram", "salary": "50k-80k BDT", "type": "Full-time", "posted": "3 days ago" },
-      { "title": "IT Project Coordinator", "company": "TechFlow", "location": "Remote", "salary": "45k-75k BDT", "type": "Full-time", "posted": "4 days ago" },
-      { "title": "Scrum Master", "company": "AgileWorks", "location": "Dhaka", "salary": "80k-130k BDT", "type": "Full-time", "posted": "5 days ago" },
-      { "title": "Operations Manager", "company": "OperateX", "location": "Khulna", "salary": "60k-100k BDT", "type": "Full-time", "posted": "6 days ago" },
-      { "title": "Program Manager", "company": "StrategyPlus", "location": "Remote", "salary": "90k-150k BDT", "type": "Contract", "posted": "1 week ago" }
+      { "job_id": "11-1101", "title": "Project Manager", "company": "BuildRight Ltd.", "location": "Dhaka", "salary": "70k-120k BDT", "type": "Full-time", "posted": "2 days ago", "job_description": "Lead project teams to deliver complex objectives on time and within budget." },
+      { "job_id": "11-1102", "title": "Assistant Project Manager", "company": "ManagePro", "location": "Chattogram", "salary": "50k-80k BDT", "type": "Full-time", "posted": "3 days ago", "job_description": "Support lead managers with documentation, scheduling, and task tracking." },
+      { "job_id": "11-1103", "title": "IT Project Coordinator", "company": "TechFlow", "location": "Remote", "salary": "45k-75k BDT", "type": "Full-time", "posted": "4 days ago", "job_description": "Bridge the gap between technical teams and stakeholders for IT implementations." },
+      { "job_id": "11-1104", "title": "Scrum Master", "company": "AgileWorks", "location": "Dhaka", "salary": "80k-130k BDT", "type": "Full-time", "posted": "5 days ago", "job_description": "Facilitate agile ceremonies and help teams remove blockers for better velocity." },
+      { "job_id": "11-1105", "title": "Operations Manager", "company": "OperateX", "location": "Khulna", "salary": "60k-100k BDT", "type": "Full-time", "posted": "6 days ago", "job_description": "Optimize internal processes to improve efficiency across the entire organization." },
+      { "job_id": "11-1106", "title": "Program Manager", "company": "StrategyPlus", "location": "Remote", "salary": "90k-150k BDT", "type": "Contract", "posted": "1 week ago", "job_description": "Oversee multiple related projects to achieve high-level strategic business goals." }
     ]
   }
 ]
