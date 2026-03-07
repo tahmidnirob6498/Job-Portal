@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
 import CatJob from './CatJob';
+import { JobContext } from '../pages/JobContext';
 
 const CatJobs = () => {
     const [catJobs,setCatJobs]=useState([])

@@ -1,10 +1,14 @@
 import React, { use } from 'react';
 import RandomJob from './RandomJob';
+import { JobContext } from '../pages/JobContext';
 const randomJobsApi=fetch("/category.json").then(res=>res.json())
 const RandomJobs = () => {
+
     const randomJobsPackage=use(randomJobsApi)
     // const randomJobs=randomJobsPackage.jobs
     console.log(randomJobsPackage)
+
+    
     return (
         <div>
         {

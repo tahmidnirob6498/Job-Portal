@@ -17,8 +17,8 @@ const SelectedJob = () => {
 
 
     return (
-        <div className='bg-base-200 min-h-screen py-4 '>
-           <div className='max-w-6/7 md:max-w-1/2 mx-auto shadow-xl border border-amber-500 p-3 rounded-xl'>
+        <div className='bg-base-200 min-h-screen py-4'>
+           <div className='max-w-6/7 mt-20 md:max-w-1/2 mx-auto shadow-xl border border-amber-500 p-3 rounded-xl'>
           <h1 className='text-center text-2xl md:text-3xl font-semibold'>{company}</h1>
           <h2 className='text-center mt-3 md:mt-5'><span className='text-xl '>Job category:</span> <span className='text-xl font-semibold'>{title}</span></h2>
           <p className='text-center mt-2'>{job_description}</p>

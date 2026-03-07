@@ -10,6 +10,9 @@ import Signup from "./Signup";
 import SelectedJob from "../component/SelectedJob";
 import PrivateRoute from "./PrivateRoute";
 import Candidates from "../component/Candidates";
+import WrongPath from "../component/WrongPath";
+import Loading from "../component/Loading";
+import { Suspense } from "react";
 
 export const router=createBrowserRouter([
     {
@@ -18,14 +21,20 @@ export const router=createBrowserRouter([
         children:[
             {
                 index:true,
-                Component:Home
+                element:<Suspense fallback={<Loading></Loading>}>
+                    <Home></Home>
+                </Suspense>
             },
             {
                 path:'jobs',
-                Component:Jobs,
+                element:<Suspense fallback={<Loading></Loading>}>
+                    <Jobs></Jobs>
+                </Suspense>,
                 children:[{
                     index:true,
-                    Component:RandomJobs,  
+                    element:<Suspense fallback={<Loading></Loading>}>
+                        <RandomJobs></RandomJobs>
+                    </Suspense>,  
                 },
                 {
                     path:':id',
@@ -38,11 +47,15 @@ export const router=createBrowserRouter([
                 element:<PrivateRoute>
                     <SelectedJob></SelectedJob>
                 </PrivateRoute>,
-                loader:()=>fetch('/category.json')
+                loader:()=>fetch('/category.json'),
+                hydrateFallbackElement:<Loading></Loading>
+
             },
             {
                 path:'/candidate',
-                Component:Candidates
+                element:<Suspense fallback={<Loading></Loading>}>
+                    <Candidates></Candidates>
+                </Suspense>
             }
             
         ]
@@ -54,5 +67,9 @@ export const router=createBrowserRouter([
             {
                 path:'signup',
                 Component:Signup
+            },
+            {
+                path:'*',
+                Component:WrongPath
             }
 ])

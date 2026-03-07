@@ -29,7 +29,7 @@ const Navbar = () => {
     </div>
     <div className=" font-semibold   sm:text-2xl hidden sm:flex justify-center items-center"><img className=' w-6 md:w-12 rounded-full  gap-1' src="/public/job-logo-symbol-vector-design-illustration-2BJTR67.jpg" alt="" />Job<span className='sm:text-2xl text-yellow-600'>Finder</span></div>
   </div>
-  <div className=" font-semibold  sm:text-2xl flex sm:hidden justify-center items-center"><img className=' w-6 md:w-12 rounded-full  gap-1' src="/public/job-logo-symbol-vector-design-illustration-2BJTR67.jpg" alt="" />Job<span className='sm:text-2xl text-yellow-600'>Finder</span></div>
+  <div className=" pr-7 font-semibold text-xl sm:text-2xl flex sm:hidden justify-center items-center"><img className=' w-6 md:w-12 rounded-full  gap-1' src="/public/job-logo-symbol-vector-design-illustration-2BJTR67.jpg" alt="" />Job<span className='sm:text-2xl text-yellow-600'>Finder</span></div>
   <div className="navbar-center hidden md:flex">
     <ul className="menu menu-horizontal space-x-4 px-1">
       {link}
@@ -38,13 +38,13 @@ const Navbar = () => {
   {/* Modal */}
 
 <dialog id="my_modal_5" className="modal  modal-middle">
-  <div className="modal-box max-w-2/3">
-<div className='max-w-1/7 mx-auto'>
-     {user?.photoURL ? <img className='w-10 rounded-full' src={user.photoURL} alt="" /> : <img className='w-15 rounded-full text-amber-600' src={image} alt="" /> }
+  <div className="modal-box p-3 md:p-4 max-w-2/3">
+<div className=' max-w-1/7 text-center md:pl-5 mx-auto'>
+     {user?.photoURL ? <img className='w-15 rounded-full' src={user.photoURL} alt="" /> : <img className='w-15 rounded-full text-amber-600' src={image} alt="" /> }
   
   </div> 
-    <h3 className="font-bold text-2xl max-w-1/7 mx-auto">{user?.displayName}</h3>
-    <p className="py-4 flex items-center gap-1 text-center"><span className='text-xl font-semibold'>Email:</span> {user?.email}</p>
+    <h3 className="font-bold text-xl md:text-2xl text-center max-w-2/7 mx-auto">{user?.displayName}</h3>
+    <p className="py-4 pr-5 flex items-center sm:gap-1"><span className='md:text-xl font-semibold'>Email:</span> {user?.email}</p>
    <div className='flex justify-between items-center'>
     <div>
       <form method="dialog">
@@ -69,7 +69,7 @@ const Navbar = () => {
   <div className="navbar-end">
     
     {
-      user ? <div className='flex items-center gap-3'> {user.photoURL ? <img className='w-9 rounded-full' onClick={()=>document.getElementById('my_modal_5').showModal()} src={user.photoURL} alt="" /> : <img className='w-10 rounded-full text-amber-600' onClick={()=>document.getElementById('my_modal_5').showModal()} src={image} alt="" /> }   <p className='text-xl font-semibold'>{user.displayName}</p> </div>: <Link to='/login' className="btn bg-amber-400 ">Login</Link>
+      user ? <div className='flex items-center gap-1'> {user.photoURL ? <img className='w-9 rounded-full' onClick={()=>document.getElementById('my_modal_5').showModal()} src={user.photoURL} alt="" /> : <img className='w-8 md:w-10 rounded-full' onClick={()=>document.getElementById('my_modal_5').showModal()} src={image} alt="" /> }   <p className='md:text-xl font-semibold'>{user.displayName}</p> </div>: <Link to='/login' className="btn bg-amber-400 ">Login</Link>
     }
   </div>
 </div>
