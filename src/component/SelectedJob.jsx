@@ -1,8 +1,9 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
+import { toast, ToastContainer } from 'react-toastify';
 
 const SelectedJob = () => {
-
+const notify = () => toast.success('Apply confirmed!');
     const {id}=useParams()
     const AllJobs=useLoaderData()
    
@@ -10,8 +11,9 @@ const SelectedJob = () => {
   
   const {job_description,salary,company,title,type}=selectedJob
   
- const handleApply=()=>{
- alert('Apply confirmed!')
+ const handleApply=(e)=>{
+  e.preventDefault()
+    notify()
  }
     
 
@@ -51,6 +53,7 @@ const SelectedJob = () => {
           <button type='submit'  className="btn w-1/3 bg-amber-400 mt-4 mx-auto">Apply</button>
         
         </form>
+        <ToastContainer></ToastContainer>
       </div>
             </div> 
         </div>

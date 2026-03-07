@@ -5,7 +5,7 @@ import { auth } from './firebase-config';
 
 const AuthProvider = ({children}) => {
     const [user,setUser]=useState(null)
-    const [loading,setLoading]=useState(false)
+    const [loading,setLoading]=useState(true)
 
     const signUp=(email,password)=>{
         setLoading(true)
@@ -16,12 +16,13 @@ const AuthProvider = ({children}) => {
         return signInWithEmailAndPassword(auth,email,password)
     }
     const signWithGoogle=()=>{
-        setLoading(true)
+        // setLoading(true)
         const provider=new GoogleAuthProvider()
         return signInWithPopup(auth,provider)
     }
 
     const updateUserProfile=(obj)=>{
+        setLoading(true)
         return updateProfile(auth.currentUser,obj)
     }
     const handleEmailVerification=()=>{

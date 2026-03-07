@@ -2,15 +2,20 @@ import React, { use, useState } from 'react';
 import { FcGoogle } from 'react-icons/fc';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from './CreateContext';
+import Loading from '../component/Loading';
 
 const Signup = () => {
-  const routelocation=useLocation()
-  const location=routelocation.state
-  // console.log(location)
+  const location=useLocation()
+  
+  console.log(location)
   // const {signUp,signWithGoogle,updateUserProfile,handleEmailVerification,user,setUser}=use(AuthContext)
-  const {signUp,signWithGoogle,updateUserProfile,setUser}=use(AuthContext)
+  const {signUp,signWithGoogle,updateUserProfile,setUser,loading}=use(AuthContext)
+
   const navigate=useNavigate()
   const [err,setErr]=useState('')
+    if(loading){
+    return <Loading></Loading>
+  }
     const handleSignUp=(e)=>{
   e.preventDefault()
   setErr('')
@@ -24,6 +29,7 @@ const Signup = () => {
     displayName:name,
     photoURL:photo
   }
+ 
 
    if(password.length<8){
   setErr('Password should be 8 character')
@@ -34,7 +40,7 @@ const Signup = () => {
   // handleEmailVerification().then(()=>alert('Email sent on your account for veification.Please verified your account')).catch(err=>setErr(err.code))
    updateUserProfile(obj)
    
-  navigate(location.pathname ? location.pathname : '/')
+  navigate(location.state ? location.state : '/')
   
   
  })
@@ -46,7 +52,7 @@ const Signup = () => {
       setErr('')
       signWithGoogle()
       .then(()=>{
-      navigate(location.pathname ? location.pathname : '/')
+      navigate(location?.state ? location.state : '/')
       })
       .catch(err=>setErr(err.code))
     }
